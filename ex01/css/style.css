@@ -1,0 +1,44 @@
+/* Đầu tiên ta thiết lập bố cục của khung thơ trên trang web */
+body {
+  /* <!--Bật flexbox: một hệ thống xếp layout hiện đại--> */
+  display: flex;
+  /* Căn giữa các con theo trục ngang chính */
+  justify-content: center;
+  margin: 0;
+  /* mặc định body chỉ cao bằng đúng nội dung bên trong */
+  min-height: 100vh; /*100vh: 100% chiều cao cửa sổ trình duyệt*/
+  /* Căn giữa con theo trục dọc chính */
+  align-items: center;
+}
+/* Tiếp đến ta thiết lập thông số cho bộ khung */
+.khung-tho {
+  width: 640px; /* không có height vì đề bài không yêu cầu cho nên để tự động và width này chỉ là chiều rộng nội dung*/
+  background-color: #fffde7;
+  border: 1px solid #9e9e9e;
+  padding: 24px;
+  text-align: center;
+}
+h1 {
+  color: #d40000;
+  background-color: #ffd9e6;
+  font-size: 26px;
+  padding: 6px 0; /*số 0 là khoảng trống trái phải, là 0 bởi vì h1 vốn đã rộng hết chiều ngang khung, lại được cân bằng bởi text-align nên không cần đệm */
+  margin: 0 20px;
+}
+.kho {
+  font-style: italic;
+  line-height: 1.7;
+}
+.xanh {
+  color: #0033cc;
+}
+.do {
+  color: #d40000;
+}
+hr {
+  width: 55%;
+  color: #0033cc;
+  border: none;
+  border-top: 2px solid #0033cc;
+  margin: 16px auto;
+}
