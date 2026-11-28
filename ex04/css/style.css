@@ -1,0 +1,45 @@
+body {
+  margin: 30px auto;
+  font-family: "Times New Roman", Times, serif;
+  max-width: 730px;
+  text-align: center;
+  padding: 16px;
+  line-height: 1.6;
+}
+h1 {
+  text-transform: uppercase;
+  color: #1565c0;
+  font-size: 26px;
+  margin: 16px 0;
+}
+h1 span {
+  font-size: 0.7em;
+  display: block;
+  /* khi đặt như trên, phần tử sẽ chiếm toàn bộ chiều rộng của phần tử cha và xuống dòng */
+}
+p {
+  text-align: left;
+  overflow: hidden;
+}
+p::first-letter {
+  color: #c62828;
+  font-size: 3rem;
+  font-weight: bold;
+  float: left;
+  line-height: 0.85;
+  padding: 0.1rem 0.35rem 0 0;
+}
+img.anh-banner {
+  width: 100%;
+  object-fit: cover;
+
+  border-radius: 8px;
+  max-height: 280px;
+}
+div.thanh-phu {
+  text-align: right;
+  background-color: #1565c0;
+  color: white;
+  padding: 5px 10px;
+  margin: 16px 0;
+}
